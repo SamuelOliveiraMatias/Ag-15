@@ -2,6 +2,10 @@
   transition: all 0.3s ease-in-out;
 }
 
+body {
+  background-color: #17153B;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -41,7 +45,9 @@
 }
 
 .card {
+  color: #C8ACD6;
   will-change: transform;
+  background-color: #2E236C;
   transform-style: preserve-3d;
   transition: transform 0.1s ease;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -58,6 +64,11 @@
 
 .fa-user-tie {
   font-size: 20rem;
+  color: #433D8B;
+  transition: all 0.3s ease-in-out;
+}
+.fa-user-tie:hover {
+  color: #C8ACD6;
 }
 
 .navbar {
